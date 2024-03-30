@@ -5,5 +5,5 @@ output "bucket_id" {
 
 output "table_id" {
   description = "The ARN of the created DynamoDB table"
-  value       = aws_dynamodb_table.state.arn
+  value       = aws_dynamodb_table.lock.arn
 }
